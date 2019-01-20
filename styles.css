@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 200px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+
+.master_div {
+  position: relative;
+  text-align: center;
+  margin-top: 250px;
+  background-image: url("red_bg.png");
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  margin: auto;
+}
+
+/* .red_bg_image {
+
+
+
+  text-align: center;
+  margin: auto;
+} */
