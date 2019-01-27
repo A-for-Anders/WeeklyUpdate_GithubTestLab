@@ -1,0 +1,94 @@
+/* THINGS TO PLAY AROUND WITH
+background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg); */
+/* cursor: pointer; */
+
+body {
+  background-color: #393E46;
+  font-family: 'Oswald', sans-serif;
+}
+
+.center-shit {
+  text-align: center;
+  position: absolute;
+  width: 666px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
+}
+
+.second-floor {
+  text-align: center;
+}
+
+.third-floor {
+  margin-top: 2px;
+}
+
+.banner-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  word-spacing: 10px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.banner-title {
+  width: 663px;
+  height: 47px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  background-color: white;
+}
+
+.top-buttons {
+  margin: 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.btn {
+  background-color:  #FC3C3C;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+  border: 1px;
+  border-color: white;
+  /* border-color: #F8B500; */
+  font-size: 2rem;
+  color: #FFF4E0;
+  font-weight: 100;
+  width: 200px;
+  margin: 2px;
+  border-style: solid;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+#hour #minute #second {
+  border-color: white;
+}
+.colon  {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  margin: 2px;
+  width: 10px;
+  border: 10px;
+  border-color: white;
+  background-color: #393E46;
+}
+
+.btn-transition:hover {
+  background-color: #4CAF50;
+  border-color: white;
+}
