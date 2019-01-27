@@ -1,9 +1,6 @@
-// getElementById("button-key-1").addEventListener("click", function() {
-//
-// });
 
-// var button = document.getElementById("Sailthru");
-//
-// button.addEventListener("click", function(){
-//     document.location.href = 'http://www.sailthru.com';
-// });
+var button = document.getElementById("button-key-1");
+
+button.addEventListener("click", function() {
+    document.location.href = "https://a-for-anders.github.io/WeeklyUpdate_GithubTestLab/projects/clock/clock.html";
+});
