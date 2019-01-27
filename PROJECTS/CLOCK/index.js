@@ -85,3 +85,9 @@ document.querySelector("#second").addEventListener("click", function () {
     document.querySelector("#second").innerHTML = secondText;
     }
 });
+
+var goBackToMain = document.getElementById("go-back");
+
+goBackToMain.addEventListener("click", function () {
+  document.location.href = "https://a-for-anders.github.io/WeeklyUpdate_GithubTestLab/";
+});
