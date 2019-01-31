@@ -13,7 +13,7 @@ body {
 
 .section-button-meny {
   position: relative;
-  left: 50vw;
+
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -30,7 +30,43 @@ body {
   height: 50px;
 }
 
-button:hover {
+.alternative-second-meny {
+  position: relative;
+
+  margin-bottom: 20px;
+}
+
+.alt-sec-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /* display: block; */
+  position: relative;
+  background-color: #fcad26;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #efa424;
+}
+
+.alt-sec-btn:hover {
+  box-shadow: 0 4px #efa424;
+  top: 2px;
+  font-size: 14px;
+}
+
+.alt-sec-btn:active {
+  box-shadow: none;
+  top: 6px;
+  font-size: 12px;
+}
+
+.button-meny-keys:hover {
   font-weight: 400;
   font-size: 1rem;
   background-color: #38353e;
@@ -40,6 +76,23 @@ button:hover {
   border: 2px solid #fff;
   width: 160px;
   height: 50px;
+  cursor: pointer;
+}
+
+.bootstrap-buttons {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.space {
+  height: 60px;
+}
+
+.lead {
+  /* font-style: italic; */
 }
 
 .thin-line {
@@ -55,8 +108,8 @@ button:hover {
 
   letter-spacing: 5.5px;
   position: absolute;
-  top: 300px;
-  left: 45%;
+  margin-top: 20px;
+  left: 50vw;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -67,7 +120,7 @@ button:hover {
 
   letter-spacing: 12px;
   position: absolute;
-  top: 380px;
-  left: 45%;
+  margin-top: 20px;
+  left: 50vw;
   transform: translateX(-50%) translateY(-50%);
 }
